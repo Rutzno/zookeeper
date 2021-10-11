@@ -125,7 +125,7 @@ fun main() {
         print("Please enter the number of the habitat you would like to view: ")
         val input = readLine()
         if (!input.equals("exit")) {
-            if (input!!.toInt() > 5) {
+            if (input!!.toInt() >= 6) {
                 println("That habitat doesn't exist")
                 continue
             }
