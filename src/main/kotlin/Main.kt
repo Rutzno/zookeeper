@@ -1,7 +1,7 @@
 /**
  * @author Mack_TB
  * @version 1.0.7
- * @since 8/16/2021
+ * @since 9/19/2021
  */
 
 const val camel = """Switching on the camera in the camel habitat...
