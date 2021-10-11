@@ -130,7 +130,9 @@ fun main() {
                 continue
             }
             println(animals[input.toInt()])
+        } else {
+            println("See you later!")
+            break
         }
-    } while (!input.equals("exit"))
-    println("See you later!")
+    } while (true)
 }
