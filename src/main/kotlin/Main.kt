@@ -19,6 +19,5 @@ const val camel = """Switching on the camera in the camel habitat...
 Look at that! Our little camel is sunbathing!"""
 
 fun main() {
-//    write your code here
     println(camel)
 }
