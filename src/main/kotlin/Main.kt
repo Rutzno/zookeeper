@@ -120,7 +120,7 @@ const val rabbit = """Switching on the camera in the rabbit habitat...
 It looks like we will soon have more rabbits!"""
 
 fun main() {
-    val animals = mutableListOf<String>(camel, lion, deer, goose, bat, rabbit)
+    val animals = mutableListOf(camel, lion, deer, goose, bat, rabbit)
     print("Please enter the number of the habitat you would like to view: ")
     val index = readLine()!!.toInt()
     println(animals[index])
