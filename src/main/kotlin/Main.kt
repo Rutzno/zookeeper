@@ -124,7 +124,7 @@ fun main() {
     print("Please enter the number of the habitat you would like to view: ")
     val index = readLine()!!.toInt()
     println(animals[index])
-    println("---\n" +
-            "You've reached the end of the program. To check another habitat, " +
+    println("---")
+    println("You've reached the end of the program. To check another habitat, " +
             "please restart the watcher.")
 }
